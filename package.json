@@ -6,8 +6,11 @@
     "react-scripts": "0.6.1"
   },
   "dependencies": {
+    "axios": "^0.14.0",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "superagent": "^2.3.0",
+    "unsplash-js": "^4.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
