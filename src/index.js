@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Main from './components/Main';
-import './index.css';
-
+import './styles/index.css';
+import './styles/font-awesome/css/font-awesome.min.css';
 ReactDOM.render(
   <Main />,
   document.getElementById('root')
