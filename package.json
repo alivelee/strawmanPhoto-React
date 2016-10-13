@@ -9,6 +9,7 @@
     "axios": "^0.14.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "react-router": "4.0.0-alpha.3",
     "superagent": "^2.3.0",
     "unsplash-js": "^4.2.0"
   },
