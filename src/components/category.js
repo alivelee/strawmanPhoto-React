@@ -4,7 +4,7 @@ class Category extends Component {
   constructor(props){
     super(props);
   }
-  render(){
+    render(){
     return (
       <section>
       <figcaption>
@@ -13,7 +13,9 @@ class Category extends Component {
           <img src={this.props.cover} />
           <i className="fa fa-search-plus" aria-hidden="true"><Link to={{
             pathname:'photo/'+this.props.id,
-            query: { id : this.props.id }
+            query: {
+              id : this.props.id,
+            }
           }}>To</Link></i>
         </div>
       </figcaption>
