@@ -46,11 +46,11 @@ class Photos extends Component {
     }
     return this.state.photos.map(item =>
       <div className="wrapper">
-        <section>
+        <div>
           <p>Likes: {item.likes}</p>
           <p>Create at :{item.created_at}</p>
           <img src={item.urls.small} />
-        </section>
+        </div>
       </div>
     )
   }
