@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+header,footer {
+  align-self: stretch;
+  font-size: 2.5em;
+  min-height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #5C6BC0;
+  color: #EEEEEE;
+}
+footer {
+  margin-top: 30px;
+}

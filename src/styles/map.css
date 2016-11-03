@@ -1,0 +1,14 @@
+
+section {
+  display: flex;
+  min-height: 100vh;
+}
+#map__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+#allmap {
+  flex:3;
+}

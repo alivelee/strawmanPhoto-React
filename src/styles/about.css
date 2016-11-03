@@ -2741,18 +2741,25 @@ body {
 
 p {
   font-size: 1.5em; }
-
-section img {
+.about {
+  font-size: 1.5em;
+  flex-direction: column;
+  padding: 250px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.self {
   max-width: 100%;
   width: 200px;
   height: 200px;
   border-radius: 50%;
   border: 2px solid #E6E6E6;
   transition: border 0.25s ease; }
-  section img:hover {
+  .self img:hover {
     border: 10px solid #E6E6E6; }
 
-.section {
+.sectionSelf {
   position: relative;
   display: flex;
   flex-direction: column;

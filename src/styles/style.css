@@ -1,6 +1,5 @@
 @import url(sanitize.css);
 body {
-  background-color: #2A2C31;
   font-family: Helvetica Neue,Arial,sans-senif; }
 
 a {
@@ -196,7 +195,7 @@ div.image:hover h2 {
 #main {
   display: flex;
   min-height: 100vh;
-  min-width: 400px;
+  min-width: 100%;
   flex-direction: row;
   justify-content: center;
   align-items: center; }
