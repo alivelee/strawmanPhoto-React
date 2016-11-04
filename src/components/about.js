@@ -5,12 +5,12 @@ import a3 from '../images/a3.png';
 import a4 from '../images/a4.png';
 const About = () => (
   <div>
-    <header className="section">
+    <header className="about">
       <h1>About us</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
     </header>
-    <section className="section master">
-      <img src={a1} alt="" />
+    <section className="sectionSelf master">
+      <img src={a1} alt="" className="self"/>
       <article>
         <p>I am a amateur Photographer as well as a Front-end Developer.</p>
       </article>
@@ -21,7 +21,7 @@ const About = () => (
         <i className="fa fa-weixin fa-2x" aria-hidden="true"></i>
       </span>
     </section>
-    <section className="section follower"><img src={a3} alt="" />
+    <section className="sectionSelf follower"><img src={a3} alt="" className="self"/>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
       <span>
         <i className="fa fa-envelope fa-2x" aria-hidden="true"></i>
@@ -29,7 +29,7 @@ const About = () => (
         <i className="fa fa-weixin fa-2x" aria-hidden="true"></i>
       </span>
     </section>
-    <section className="section mates"><img src={a4} alt="" />
+    <section className="sectionSelf mates"><img src={a4} alt="" className="self"/>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
       <span>
         <i className="fa fa-envelope fa-2x" aria-hidden="true"></i>
