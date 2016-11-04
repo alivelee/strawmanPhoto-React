@@ -7,7 +7,7 @@ class Main extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header header="Choose Your Favourite"/>
         <Gallery />
         <Footer />
       </div>
