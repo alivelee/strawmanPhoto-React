@@ -22,7 +22,7 @@ class Devices extends Component {
   render(){
     return (
       <div>
-        <Header />
+        <Header header="Choose you Devices"/>
         <DevicesList items={this.state.items} />
       </div>
     )
