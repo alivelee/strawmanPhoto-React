@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
+import '../styles/category.css';
 class Category extends Component {
   constructor(props){
     super(props);
@@ -7,10 +8,10 @@ class Category extends Component {
     render(){
     return (
       <div className="category">
-        <figcaption>
+        <img src={this.props.cover} className="category-img"/>
+        <figcaption className="category-figuration">
           <div className="info">
             <h2>{this.props.title}</h2>
-            <img src={this.props.cover} />
             <i className="fa fa-search-plus" aria-hidden="true"><Link to={{
               pathname:'photo/'+this.props.id,
               query: {
