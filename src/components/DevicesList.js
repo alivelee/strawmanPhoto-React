@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import '../styles/devices.css';
 const DevicesList = ({items}) => {
     return (
-      <section>
+      <section className="devices">
         {items.map(item =>
-          <div key={item.key}>
+          <div key={item.key} className="col">
             <h3>设备名称:{item.key}</h3>
             <span>传感器类型: {item.cmos_processor}</span>
             <span>画幅: {item.cmos_size}</span>
